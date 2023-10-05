@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sneak</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+
+      <div class="collapse navbar-collapse" id="mynav">
+
+        <ol class="nav navbar-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ol>
+
+
+      </div>
+    </div>
+  </nav>
+
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h1>Elevate your style,<br><span>one step at a time</span></h1>
+      <div class="btn-box">
+        <a href="#about" class="btn">Know more</a>
+      </div>
+      <div class="img">
+        <img src="./img/bg.jpg" alt="" class="responsive" width="600" height="400">
+      </div>
+    </div>
+  </section>
+
+
+  <section class="about" id="about">
+    <h1>About:</h1>
+    <div class="about-content">
+
+      <p class="para2">
+
+
+        Discover the perfect balance of fashion and function with SNEAK.Our team of experts tirelessly scours the
+        market to bring you footwear that not only complements your
+        style but also prioritizes your comfort. Whether you're strolling through city streets, hitting the gym, or
+        embracing the great outdoors, we have the ideal pair for every adventure.
+
+        At SNEAK, we believe that quality is non-negotiable.
+        That's why we partner with renowned brands and emerging designers alike,
+        ensuring that each shoe in our collection is crafted with the utmost care and
+        attention to detail. From the finest materials to innovative construction techniques,
+        we guarantee that every step you take is supported by uncompromising quality.
+
+        Our commitment extends beyond just providing you
+        with exceptional footwear. We strive to create an immersive shopping experience that
+        empowers you to express your individuality through your choice of shoes. Whether you're
+        seeking timeless classics or cutting-edge trends, our diverse range ensures that you'll find the
+        perfect fit for your unique lifestyle.
+
+        Step into SNEAK, and let us redefine the way you
+        perceive and experience footwear. Elevate your style, embrace unparalleled comfort,
+        and embark on every journey with confidence, all courtesy of SNEAK - where style meets substance,
+        and every step matters.
+      </p>
+
+    </div>
+
+  </section>
+
+
+
+  <section class="products" id="products">
+    <table border="0" width="100%" bgcolor="white">
+      <tr>
+        <h1>Products</h1>
+      </tr>
+      <tr height="100%" width="100%">
+        <td width="25%" class="pro">
+
+          <h3 align="center"><i>Barefoot</i></h3>
+          <img src="./img/i1.jpeg" height="200px" width="100%" id="img">
+          <center>
+            <p>Price:$100</p>
+            <button>Buy now</button>
+            <button>Add to cart</button>
+          </center>
+        </td>
+        <td width="25%" class="pro">
+          <h3 align="center"><i>Cavit</i></h3>
+          <img src="./img/i2.jpeg" height="200px" width="100%" id="img">
+          <center>
+            <p>Price:$250</p>
+            <button>Buy now</button>
+
+            <button>Add to cart</button>
+          </center>
+        </td>
+        <td width="25%" class="pro">
+          <h3 align="center"><i>Gallo</i></h3>
+          <img src="./img/i3.jpeg" height="200px" width="100%" id="img">
+          <center>
+            <p>Price:$150</p>
+            <button>Buy now</button>
+
+            <button>Add to cart</button>
+          </center>
+        </td>
+        <td width="25%" class="pro">
+          <h3 align="center"><i>Fetzer</i></h3>
+          <img src="./img/i4.jpeg" height="200px" width="100%" id="img">
+          <center>
+            <p>Price:$300</p>
+            <button>Buy now</button>
+
+            <button>Add to cart</button>
+          </center>
+        </td>
+      </tr>
+    </table>
+
+  </section>
+
+  <section class="contact" id="contact">
+    <form class="cform">
+      <table border="0" width="100%" bgcolor="white">
+        <tr>
+          <h1 class="ch">Contact Us</h1>
+        </tr>
+        <tr>
+          <td><label for="name">Name:</label></td>
+          <td><input type="text" id="name" name="name"></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input type="email" id="email" name="email"></td>
+        </tr>
+        <tr>
+          <td><label for="address">Address:</label></td>
+          <td><textarea id="address" name="address"></textarea></td>
+        </tr>
+        <tr>
+          <td><label for="contact">Phone:</label></td>
+          <td><input type="tel" id="contact" name="contact"></td>
+        </tr>
+        <tr>
+          <td><label for="message">Message:</label></td>
+          <td><textarea id="message" name="message"></textarea></td>
+        </tr>
+        <td colspan="2" style="text-align: center;">
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </td>
+      </table>
+    </form>
+
+  </section>
+
+</body>
+
+</html>
